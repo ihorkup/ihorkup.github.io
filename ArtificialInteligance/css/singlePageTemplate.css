@@ -1,0 +1,722 @@
+@charset "UTF-8";
+body {
+	color: black;
+	font-family: Arial, sans-serif;
+	background: url(../images/fon_1600-1280.jpg) no-repeat center top / cover;
+	background-color: #c8e4f4;
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+	font-weight: 200;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.container {
+	width: 1000px;
+	position: center;
+	margin-top: 0;
+	margin: 0 auto; /*головні поля по центру*/
+	height: auto;
+	background-color: #fff/*#1773b5*/;
+}
+
+.polia {
+	/*margin:25px;*/
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+.polia_verh {
+ 	padding-left: 55px;
+	padding-right: 55px;
+	padding-top: 12.5px;
+
+}
+
+.verh {
+	height: 50px;
+	padding-bottom: 0px;
+	padding-top: 0;
+	margin-top: 0;
+	background-color: #c38d18;
+	text-transform: uppercase;
+	font-weight: lighter;
+	border-top-width: 0px;
+}
+
+.nyz {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 0;
+	background-color: #c38d18;
+	
+	color: #FFFFFF;
+	/*text-transform: uppercase;*/ /*великі букви*/
+	font-weight: lighter;
+	letter-spacing: 0.75px;
+	border-top-width: 0px;
+}
+
+div {
+	box-sizing: border-box; /*відступи падінг не впливають на розміри*/
+}
+
+.logo {
+	color: #fff;
+	font-weight: bold;
+	font-size: 22px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	
+	
+}
+
+nav {
+	float: right;
+}
+
+ul {
+	margin-top: 0.5px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+li {
+	box-sizing: border-box; 
+}
+
+.menu li {
+	float: left;
+	display: block;
+	color: #FFFFFF;
+	margin-right: 8px;
+	margin-top: 1.5px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	
+
+}
+
+
+.foto_holovna {
+	width: 350px;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	margin: 5px;
+	margin-right: 20px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	box-shadow: 0px 0px 10px 1px black;
+	
+}
+#robot {
+	width: 250px;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	margin: 5px;
+	margin-right: 20px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	box-shadow: 0px 0px 10px 1px black;
+}
+
+ul li a {
+	color: #FFFFFF;
+	font-size: 18px;
+	text-decoration: none;
+	box-shadow: 0px 0px 1px 1px #ffffff;
+	border-radius: 3px;
+	padding: 1px 5px 1px 5px;
+
+}
+ul li:hover a {
+	box-shadow: 0px 0px 4px 4px #f9c043;
+}
+
+.title {
+	padding: 50px 0 50px 0;
+
+	width: 1000px;
+	background-color: #fff430;
+}
+
+.title_big {
+	color: #000;
+	font-size:50px;
+	width: 400;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 8px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	letter-spacing: 3px;
+}
+
+
+.title_small {
+	color: #353535;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 5px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.text_column {
+	width: 100%;
+	text-align: justify;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	color: #000000;
+	
+	}
+
+.text {
+	padding: 0;
+	background-color: #FFFFFF;
+}
+
+a {
+	color: #000000;
+	width: 200px;
+	font-size: 18px;
+	text-decoration: none;
+	text-transform: uppercase; /*caps lock_великі букви*/
+	
+}
+a:hover {
+	color: #ffffff;
+}
+.button {
+	width: 200px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 2px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #000;
+	background-color: darkgray;
+	border: 4px solid #f4e42f;
+	box-shadow: 0px 0px 20px 1px black;
+}
+
+.button:hover {
+	background-color: #F03438;
+	color: #FFF;
+	cursor: pointer;
+}
+.pytania {
+	color: #000;
+	font-size: 20px;
+	font-weight: 900;
+	text-align: center;
+	margin-top: 100px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	
+}
+
+.knopka {
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+.source {
+	float: right;
+	display: block;
+
+	margin: 0px;
+	padding: 0px;
+}
+.source a {
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+	color: #000;
+	text-transform: none;
+}
+
+.source a:hover {
+	color: #c45e00;
+}
+
+.source p {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+/*
+* {
+	border: 0.5px solid red;
+}
+*/
+
+
+/* Mobile */
+@media (max-width: 480px) {
+/*
+* {
+	border: 0.5px solid red;
+}*/
+
+body {
+	color: black;
+	font-family: Arial, sans-serif;
+	background: url(../images/fon_1600-1280.jpg);
+	
+	background-color: #c8e4f4;
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+	font-weight: 200;
+}
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.verh {
+	height: 30px;
+	padding-bottom: 0px;
+	padding-top: 0;
+	margin: 0;
+	background-color: #c38d18;
+	text-transform: uppercase;
+	font-weight: lighter;
+	border-top-width: 0px;
+}
+
+.nyz {
+	text-align: center;
+	font-size: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 0;
+	background-color: #c38d18;
+	
+	color: #FFFFFF;
+	/*text-transform: uppercase;*/ /*великі букви*/
+	font-weight: lighter;
+	letter-spacing: 0.75px;
+	border-top-width: 0px;
+}
+div {
+	box-sizing: border-box; /*відступи падінг не впливають на розміри*/
+}
+.logo {
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	float: left;
+	margin: 0;
+	margin-top: 3px;
+	padding: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	
+	
+}
+nav {
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	margin-top: 0px;/*внутр. відстань кнопок меню*/
+	padding-top: 0.5px;
+	padding-left: 0px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+li {
+	box-sizing: border-box; 
+	
+}
+
+.menu li {
+	float: left;
+	display: block;
+	color: #FFFFFF;
+	margin-left: 6px;
+	margin-right: 0;
+	padding-top: 0px;
+	margin-top: 0px;
+	padding-left: 0px
+	letter-spacing: 2px;
+	font-weight: bold;
+	
+
+}
+ul li a {
+	color: #FFFFFF;
+	font-size: 13px;
+	text-decoration: none;
+	box-shadow: 0px 0px 1px 1px #ffffff;
+	border-radius: 3px;
+	
+
+}
+ul li:hover a {
+	box-shadow: 0px 0px 4px 4px #f9c043;
+}
+nav {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+.title {
+	padding: 20px 0px 20px 0;
+
+	width: 359px;
+	background-color: #ffde28;
+}
+.title_big {
+	color: #000;
+	font-size:25px;
+	width: 400;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 8px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	letter-spacing: 3px;
+}
+
+
+.title_small {
+	color: #353535;
+	font-size: 10px;
+	text-align: center;
+	margin-top: 5px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.foto_holovna {
+	width: 200px;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	margin: 0px;
+	margin-right: 8px;
+	margin-left: 3px;
+	margin-top: 22px;
+	margin-bottom: 0px;
+	box-shadow: 0px 0px 10px 1px black;
+	
+}
+#robot {
+	width: 150px;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	margin: 0px;
+	margin-right: 8px;
+	margin-left: 3px;
+	margin-top: 22px;
+	margin-bottom: 0px;
+	box-shadow: 0px 0px 10px 1px black;
+}
+.text_column {
+	width: 100%;
+	font-size: 12px;
+	text-align: justify;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 20px;
+	color: #000000;
+	
+	}
+
+.text {
+	padding: 0;
+	margin-bottom: auto;
+	background-color: #FFFFFF;
+}
+
+.polia {
+	margin: 0 auto;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.polia_verh {
+	margin: 0 auto;
+	margin-top: 0px;
+ 	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 4.5px;
+
+}
+
+.container {
+	width: 359px;
+	position: center;
+	margin-top: 0;
+	margin: 0 auto; /*головні поля по центру*/
+	height: auto;
+	background-color: #fff/*#1773b5*/;
+}
+a {
+	color: #000000;
+	
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: uppercase; /*caps lock_великі букви*/
+	
+}
+a:hover {
+	color: #ffffff;
+}
+.button {
+	
+  	width: 100%;
+  	margin-bottom: 0px;
+	text-align: center;
+	border-radius: 2px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #000;
+	background-color: darkgray;
+	border: 4px solid #f4e42f;
+	box-shadow: 0px 0px 20px 1px black;
+}
+
+.button:hover {
+	background-color: #F03438;
+	color: #FFF;
+	cursor: pointer;
+}
+.pytania {
+	color: #000;
+	font-size: 17px;
+	font-weight: 900;
+	text-align: center;
+	margin-top: 230px;
+	margin-right: 0px;
+	margin-bottom: 30px;
+	padding-left: 0px;
+	letter-spacing: -1px;
+}
+
+.knopka {
+	width: 190px;
+	height: 80px;
+	margin: 0 auto;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 210px;
+	
+}
+.source {
+	float: right;
+	display: block;
+
+	margin: 0px;
+	padding: 0px;
+}
+.source a {
+	font-size: 11px;
+	margin: 0px;
+	padding: 0px;
+	color: #000;
+	text-transform: none;
+}
+
+.source a:hover {
+	color: #c45e00;
+}
+
+.source p {
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+}
+
+}
+
+
+
+
+
+
+/* Small Tablets */
+@media (min-width: auto)and (max-width: auto) {
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color: #FFFFFF;
+}
+.container header nav {
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	width: auto;
+	float: none;
+	overflow: visible;
+	display: inline;
+	background: #505050;
+}
+header nav ul {
+	padding: 0px;
+	float: none;
+}
+nav ul li {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.text_column {
+	width: 100%;
+	text-align: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.thumbnail {
+	width: 100%;
+}
+.footer_column {
+	width: 100%;
+	margin-top: 0px;
+}
+.parallax {
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 40%;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 100%;
+	font-size: 18px;
+}
+.parallax_description {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 30%;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+.thumbnail {
+	width: 50%;
+}
+.parallax {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-top: 20%;
+}
+.parallax_description {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	padding-top: 30px;
+}
+.banner {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.footer_column {
+	width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+/* Small Desktops */
+@media (min-width: auto) and (max-width: auto) {
+.text_column {
+	width: 100%;
+}
+.thumbnail {
+	width: 50%;
+}
+.text_column {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.about {
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 0px;
+	display:inline-table;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+}
+}
+
+
+
