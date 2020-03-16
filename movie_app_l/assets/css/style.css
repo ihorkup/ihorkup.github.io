@@ -1,0 +1,163 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    padding: 20px;
+    margin: 0px;
+}
+
+ul.section {
+    width: 500px;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+div.movie {
+    margin-top: 25px;
+    display:inline-table;
+}
+
+.movie h2#trend {
+    position: relative;
+    top: 0px;
+    left: 30px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+}
+
+.content-display {
+    float: right;
+}
+
+section {
+    width: 100%;
+    margin-top: 25px;
+    transition: 250ms all;
+}
+
+
+section .imageContainer {
+    flex: 0 0 auto;
+}
+
+.content {
+    display: none;
+
+}
+
+.content-display {
+    display: block;
+    position: relative;
+    background-color: lightgrey;
+    width: 94%;
+    height: auto;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    padding-left: 40px;
+    margin: 0px auto;
+}
+
+#mainTitle {
+    padding: 0;
+    margin: 0;
+}
+
+.titleInfo {
+    background-color: darkgrey;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+p {
+    margin: 0;
+}
+
+table {
+    padding: 0;
+}
+
+td {
+    vertical-align: top;
+}
+
+td#textInfo {
+    width: 80%;
+}
+
+#content-close {
+    cursor: pointer;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    margin: 0;
+    padding: 5px 9px;
+    border: 1px solid darkgrey;
+    border-radius: 100%;
+}
+
+.imageInfo {
+    margin-left: 20px;
+    height: 350px;
+}
+
+.imageContainer {
+    margin-bottom: 5px;
+    transition: 250ms all;
+    width: 350px;
+    list-style: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.imageContainer:hover {
+    background-color: aliceblue;
+    margin-left: 0 40px;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.imageContainer img {
+    width: 100%;
+}
+
+.btn {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    outline: none;
+    min-height: 38px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    width: 760px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    outline: none;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
