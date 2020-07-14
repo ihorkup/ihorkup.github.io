@@ -1,0 +1,9 @@
+body {
+  background-color: antiquewhite;
+}
+
+.centerAlign {
+  margin-top: 150px;
+  text-align: center;
+  font-family: sans-serif;
+}
