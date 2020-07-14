@@ -1,0 +1,22 @@
+        body {
+            font-family: Cambria, Georgia, serif;
+        }
+        p.hint {
+            font-size: 18px; 
+            font-family: sans-serif; 
+            text-align: center; 
+            margin: 5px 0px;
+        }
+        h1#heading {
+            text-align: center; 
+            margin: 10px 0px 0px 0px;
+        }
+        p#info {
+            font-size: 18px;
+            text-align: center; 
+            margin: 4px 0px 40px 0px;
+        }
+        img#map {
+            display: block; 
+            margin: 0 auto;
+        }
